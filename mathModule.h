@@ -14,7 +14,7 @@ float initialLength(unsigned int index, float radius)
  * @param index -> index for the hole in row
  * @param radius -> hole radius
  */
-float getPointX(unsigned int row,unsigned int index, float radius)	
+float getPointX(unsigned int rIndex,unsigned int cIndex, float spaceDist)	
 
 /*
  * Return y location
