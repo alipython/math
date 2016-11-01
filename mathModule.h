@@ -30,7 +30,7 @@ float getPointY(unsigned int index,float radius,float theta)
  */
 float getPolarX(float pointX,float pointY)
 
-/*
+/*30
  * Return y  polar value
  * @param pointX -> x loaction in cadis coordinate
  * @param pointY -> y location in cadis coordinate
