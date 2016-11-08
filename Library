@@ -1,0 +1,44 @@
+C++ lib
+1.	serial
+	open()
+	write()
+	read()
+	close()
+
+
+2.	Math
+	
+	Location X , Y
+
+	Path Choice
+
+3.	graph
+
+Class 
+1	Servo
+		property
+
+
+		move(location)
+		stop()
+		status()
+			location
+			alarm
+
+
+2.	rail
+	rail Type()
+	enum(suqre,hexagon)
+
+4. 	Contol
+		configuration
+			-parameter
+
+
+Start flow ->
+	
+	Pause -> 
+
+	Start - > 
+		
+
