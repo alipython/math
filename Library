@@ -1,9 +1,15 @@
 C++ lib
-1.	serial
-	open()
-	write()
-	read()
-	close()
+1.	ModBus.serial
+		open()
+		write()
+		read()
+		close()
+	CANOPEN
+		open()
+		close()
+		read()
+		write()
+
 
 
 2.	Math
@@ -30,7 +36,7 @@ Class
 	rail Type()
 	enum(suqre,hexagon)
 
-4. 	Contol
+4. 	Control
 		configuration
 			-parameter
 
@@ -39,6 +45,13 @@ Start flow ->
 	
 	Pause -> 
 
-	Start - > 
+	Start - > CHECK MISSION_ZONE_ONGOING
+				YES - > CONTINUE
+				NO  - > CLEAN 
+		  
+		while (ZONE POINT)
+		    - -> X MOVE 
+		  -            - - > Z MOVE  - > WRITE FILE -> MISSION_ZONE_ONGOING - -> MISSION_ZONE_COMPLETE_DATE
+		    - -> Y MOVE	      
 		
 
